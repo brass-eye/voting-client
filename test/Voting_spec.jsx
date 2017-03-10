@@ -22,4 +22,19 @@ describe('Voting', () => {
 
 
   });
+
+
+  it('invokes callback when button pressed', () => {
+    let votedWith;
+    const vote = (entry) => votedWith = entry;
+
+    const component = renderIntoDocument(
+      <Voting pair={["Trainspotting", "28 Days Later"]} 
+              vote={vote}/>
+    );
+
+    const buttons = scryRenderedDOMComponentsWithTag(component, 'button');
+
+
+
 });
