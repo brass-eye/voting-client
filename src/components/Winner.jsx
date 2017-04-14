@@ -4,6 +4,7 @@ class Winner extends React.component {
   constructor(props) {
     super(props);
   }
+
   render() {
     return(
       <div className="winner">
