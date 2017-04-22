@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Winner extends React.component {
+class Winner extends React.Component {
   constructor(props) {
     super(props);
   }
