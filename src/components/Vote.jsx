@@ -5,9 +5,7 @@ class Vote extends React.PureComponent {
    super(props);
   }
 
-
   getPair() {
-    debugger;
     return this.props.pair || [];
   }
 
