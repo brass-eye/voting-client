@@ -7,10 +7,11 @@ class Vote extends React.Component {
 
 
   getPair() {
+    debugger;
     return this.props.pair || [];
   }
 
-  hasVotedFor() {
+  hasVotedFor(entry) {
     return this.props.hasVoted === entry;
   }
 
